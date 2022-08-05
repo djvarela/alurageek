@@ -40,7 +40,10 @@ align-items: center;
     color: var(--colorSecunrario)
 }
 
-header input{
+.buscadorylogin{
+    display: flex;
+}
+.buscadorylogin input{
     width: 40em;
     height: 3em;
     border-radius: 5em;
@@ -50,13 +53,13 @@ header input{
     outline: none;
    
 }
-header img{
+.buscadorylogin img{
     position: relative;
     margin-left: -3em;
 }
 
 
-header button{
+.buscadorylogin button{
     background-color: transparent;
     border: 1px solid var(--colorPrimario);
     width: 10em;
@@ -123,8 +126,8 @@ align-content: flex-end;
 .productos, .consolas, .diversos{
     display: flex;
     flex-direction: column;
-   
-    width: 80%;
+    align-items: center;
+    width: 100%;
     margin: auto;
 }
 .diversos{
@@ -132,25 +135,25 @@ align-content: flex-end;
 }
 .header-producto, .header-consolas, .header-diversos{
 display: flex;
-justify-content: space-between;
+justify-content: space-around;
 align-items: center;
 width: 80%;
 }
 
-.poducto-conteiner, .consolas-conteiner, .diversos-conteiner{
+.producto-conteiner, .consolas-conteiner, .diversos-conteiner{
     display: flex;
     flex-direction: row;
-    
-    justify-content:space-between;
+    width: 100%;
+    justify-content:center;
     flex-wrap: wrap;
     padding: 0;
     gap: .5em;
 }
 
-.poducto-conteiner li{
+.producto-conteiner li{
     display: flex;
     flex-direction: column;
-    width: 10%;
+   
 }
 
 
@@ -285,13 +288,19 @@ form > button{
 
 
 @media only screen and (max-width: 700px){
+   
     main{
         width: 100%;
+       
+    }
+    main h3{
+        text-align: start;
     }
     header{
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        padding: 1em 0em 1em;
+        justify-content: center;
     }
     .texto-hero h2{
         font-size: 2rem;
@@ -301,32 +310,64 @@ form > button{
         font-size: 1.5rem;
         margin-bottom: 0;
     }
+    .logo-conteiner{
+        flex-direction: row;
+        margin: 0;
+    }
+    .logo-conteiner h1{
+        font-size: 1em;
+    }
+    .logo-conteiner img{
+   
+    }
     .banner{
-        background-size: 100%;
+       
        height: 50%;
     }
-    header input{
-        width: 1em;
+    .buscadorylogin {
+        flex-direction: row-reverse;
+        margin: 0;
+        padding: 1em;
+    }
+    .buscadorylogin input{
+        display: none;
+    }
+    .buscadorylogin button{
+        margin: 0;
+        width: 5em;
+        
+    }
+    .buscadorylogin img{
+        margin: 0;
+        padding: 1em;
     }
 
-    /**.poducto-conteiner, .consolas-conteiner, .diversos-conteiner{
-      flex-direction: column;
-      width: 50%;
-    } **/
+    .producto-conteiner, .consolas-conteiner, .diversos-conteiner{
+      flex-direction: row;
+      width: 100%;
+    } 
+
     footer{
         display: flex;
         flex-direction: column;
         
     }
+
+    footer h3{
+        margin-top: 0;
+        margin-bottom: 1em
+    }
     .contenidos-footer{
         display: flex;
         flex-direction: column;
+        align-content: center;
        
     }
     .logo-footer{
         width: 100%;
         justify-content: center;
         margin: 0;
+        padding: 0;
     }
     .info-footer{
         justify-content: flex-start;
