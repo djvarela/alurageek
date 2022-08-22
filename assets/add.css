@@ -1,0 +1,21 @@
+html{
+    box-sizing: border-box;
+}
+
+
+.agregar-productor-conteiner{   
+    display:flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-de-carga{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap:1em;
+    padding: 1em;
+}
+

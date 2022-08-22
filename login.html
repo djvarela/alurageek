@@ -9,7 +9,7 @@
 </head>
 <body>
     
-<header>
+<header class="login">
         <div class="logo-conteiner">    
             <img src="img/Group.svg" alt="Logo">
             <h1>Alura<span>Geek</span></h1>
@@ -17,7 +17,6 @@
         <div class="buscadorylogin">
             <input id="lupita" type="text" placeholder=" ¿Qué deseas buscar?">
             <img for="lupita" src="img/lupa.svg" alt="">
-            <button>Login</button>
         </div>
         
 </header>
@@ -26,9 +25,9 @@
             
         <form action="">
             <h1>Iniciar Sesíon</h1>
-            <input type="text" placeholder="Escriba su correo electronico">
-            <input type="password" placeholder="Escriba su cotraseña">
-            <button>Entrar</button>
+            <input type="text" id="usuario" placeholder="Escriba su correo electronico">
+            <input type="password" id="password" placeholder="Escriba su cotraseña">
+            <button class="btn-log">Entrar</button>
 
         </form>
 
@@ -65,5 +64,7 @@
     <h2>Desarrollador por Diego Varela</h2>
     <h3>2022</h3>
 </footer>
+
+    <script src="./js/logi.js"></script>
 </body>
 </html>
