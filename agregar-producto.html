@@ -33,7 +33,11 @@
             <div class="menu-de-carga">
                 
                 <input type="text" name="" id="imagen" placeholder="URL de img">
-                <input type="text" name="" id="categoria" placeholder="Categoria">
+                <select id="categoria">
+                    <option value="productos">Productos</option>
+                    <option value="consolas">Consolas</option>
+                    <option value="diversos">Diversos</option>
+                </select>
                 <input type="text" name="" id="nombre-producto" placeholder="Nombre del Producto">
                 <input type="text" name="" id="precio" placeholder="Precio del producto">
                 <textarea name="" id="descripcion" cols="30" rows="10" placeholder="Descripcion del Producto"></textarea>
@@ -65,7 +69,7 @@
                     <form action="" >
                     <input type="text" placeholder="Nombre">
                     <textarea name="" id="" cols="10" rows="5" placeholder="Escribe tu mensaje"></textarea>
-                    <button type="submit" >Enviar mensaje</button>
+                    <button>Enviar mensaje</button>
                 </form>
     
             </div>
@@ -73,6 +77,6 @@
         <h2>Desarrollador por Diego Varela</h2>
         <h3>2022</h3>
     </footer>
-    <script type="module" src="./js/agregar.js"></script>
+    <script type="module" src="../js/agregar.js"></script>
     </body>
     </html>

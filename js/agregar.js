@@ -1,16 +1,24 @@
-const categoria = document.getElementById("categoria");
+
+import { servicios } from "../js/controller.js";
+
 const descripcion = document.getElementById("descripcion");
-
-
-console.log(categoria)
-
 
 const formCarga = document.querySelector("[data-form]");
 
-formCarga.addEventListener("submit", (event)=>{
-  event.preventDefault()
+formCarga.addEventListener("submit", (evento)=>{
+  evento.preventDefault()
   
-  const precio = document.getElementById("precio");
-  
-  console.log(precio)
+  const categoria = document.querySelector("#categoria").value;
+  const nombre= document.getElementById("nombre-producto").value;
+  const precio = document.getElementById("precio").value;
+  const id = nombre + precio;
+
+  console.log("PRECIO " + precio + " nombre " + nombre, "categoria " + categoria, "el id es:" + id)
+
+  servicios.crearProducto(nombre,precio,categoria, id).then(repuesta =>{console.log(repuesta)}).catch(error => console.log(error))
+
 })
+
+
+
+

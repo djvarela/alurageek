@@ -1,10 +1,10 @@
 {
-"producto":[
-  {
-    "nombre": "hola",
-    "precio": "200"
-  }
-
-
-]
+  "producto": [
+    {
+      "nombre": "hola",
+      "precio": "200",
+      "categoria": "productos",
+      "id": "hola200"
+    }
+  ]
 }

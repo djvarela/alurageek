@@ -14,7 +14,6 @@ const nuevoProducto = (nombre, precio)=>{
   <a href="#">Ver producto</a>`
   lista.innerHTML=template
   console.log(lista)
-
   return lista; 
 }
 
