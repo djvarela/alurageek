@@ -76,6 +76,10 @@ width: 100%;
     width: 100%;
 }
 
+.btn-carga:disabled{
+filter: grayscale(1)
+}
+
 .subir-archivo-contenedor{
     display: flex;
     gap:1em;

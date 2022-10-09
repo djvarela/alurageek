@@ -5,6 +5,28 @@ const descripcion = document.getElementById("descripcion");
 
 const formCarga = document.querySelector("[data-form]");
 
+
+const validador = ()=>{
+  const botonEnviar= document.querySelector(".btn-carga");
+  botonEnviar.disabled=true;
+
+  descripcion.addEventListener("blur",(e)=>{
+     let valor= e.target.value
+ 
+    if(valor.length >= 5){
+      console.log("es mayor a 6")
+      botonEnviar.disabled=false
+    }
+    else{
+      console.log("es mejor a 5")
+    }
+  })
+
+}
+
+validador();
+
+
 formCarga.addEventListener("submit", (evento)=>{
   evento.preventDefault()
   
