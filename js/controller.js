@@ -1,5 +1,5 @@
 
-const listaProductos = ()=> fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json())
+const listaProductos = ()=> fetch("https://djvarela.github.io/alurageek/db.json").then((respuesta) => respuesta.json())
 
 
 const crearProducto = (nombre, precio, categoria, id) =>{
@@ -17,5 +17,9 @@ const crearProducto = (nombre, precio, categoria, id) =>{
 
 export const servicios ={
     listaProductos,
+<<<<<<< HEAD
     crearProducto,
 }
+=======
+}
+>>>>>>> 05436fc8388fdd7a4edc6bb12fcc580dcc3ae115
