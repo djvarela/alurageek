@@ -5,6 +5,18 @@
       "precio": "200",
       "categoria": "productos",
       "id": "hola200"
+    },
+    {
+      "nombre": "",
+      "precio": "",
+      "categoria": "productos",
+      "id": "JnaMxxb"
+    }
+  ],
+  "consolas": [
+    {
+      "nombre": "Play Station",
+      "precio": "3000"
     }
   ]
 }

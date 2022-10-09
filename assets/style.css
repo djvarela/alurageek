@@ -9,17 +9,17 @@ body{
 }
 
 main{
-    width: 100%;
     display: flex;
     flex-direction: column;
+    width: 100%;
   
 }
 header{
-width: 100%;
-display: flex;
-justify-content: space-between;
 align-content: center;
 align-items: center;
+display: flex;
+justify-content: space-between;
+width: 100%;
 
 }
 
@@ -27,9 +27,9 @@ align-items: center;
 
 .logo-conteiner{
     display: flex;
-    padding: .5em;
-    margin-right: 10em;
     margin: auto;
+    margin-right: 10em;
+    padding: .5em;
 }
 
 .logo-conteiner h1{
@@ -44,57 +44,57 @@ align-items: center;
     display: flex;
 }
 .buscadorylogin input{
-    width: 40em;
-    height: 3em;
-    border-radius: 5em;
-    border:  none;
     background-color: #F5F5F5;
-    padding: .5em;
+    border:  none;
+    border-radius: 5em;
+    height: 3em;
     outline: none;
+    padding: .5em;
+    width: 40em;
    
 }
 .buscadorylogin img{
-    position: relative;
     margin-left: -3em;
+    position: relative;
 }
 
 
 .buscadorylogin button{
     background-color: transparent;
     border: 1px solid var(--colorPrimario);
-    width: 10em;
+    color: var(--colorPrimario);
     height: 3em;
     margin: auto;
-    color: var(--colorPrimario);
     margin-left: 10em;
     margin-right: 1em;
+    width: 10em;
 }
 
 
 .banner{
-width:100%;
-height: 30em;
-background-position: center;
-background-color: transparent;
-display: flex;
-flex-direction: column;
-align-items: flex-start;
 align-content: flex-end;
-justify-content: flex-end;
-color: #fff;
+align-items: flex-start;
+background-color: transparent;
 background-image: url(../img/Heros.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+color: #fff;
+display: flex;
+flex-direction: column;
+height: 30em;
+justify-content: flex-end;
+width:100%;
 }
 
 .texto-hero{
-position: relative;
+align-content: flex-end;
+align-content: flex-end;
 display: flex;
 flex-direction: column;
-align-content: flex-end;
-margin-left: 10%;
 justify-content: flex-end;
-align-content: flex-end;
+margin-left: 10%;
+position: relative;
 
 
 }
@@ -113,42 +113,42 @@ align-content: flex-end;
 
 .banner button{
    background-color: var(--colorPrimario);
-    position: relative;
-    width: 7em;
+    border: none;
     color: #fff;
     height: 3em;
-    border: none;
-    margin-left: 1em;
     margin-bottom: 2em;
+    margin-left: 1em;
     margin-top: .5em;
+    position: relative;
+    width: 7em;
 }
 
 
 .productos, .consolas, .diversos{
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 100%;
     margin: auto;
+    width: 100%;
 }
 .diversos{
     margin-bottom: 5em;
 }
 .header-producto, .header-consolas, .header-diversos{
+align-items: center;
 display: flex;
 justify-content: space-around;
-align-items: center;
 width: 80%;
 }
 
 .producto-conteiner, .consolas-conteiner, .diversos-conteiner{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    justify-content:center;
     flex-wrap: wrap;
-    padding: 0;
     gap: .5em;
+    justify-content:center;
+    padding: 0;
+    width: 100%;
 }
 
 .producto-conteiner li{
@@ -173,8 +173,8 @@ width: 80%;
 }
  a{
     color: var(--colorPrimario);
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
 }
 
 
@@ -194,20 +194,20 @@ footer > h2, h3{
 .contenidos-footer{
     background-color: #EAF2FD;
     display: flex;
-    width: 100%;
     justify-content: center;
-    padding-top: 3em;
     padding-bottom: 2em;
+    padding-top: 3em;
+    width: 100%;
 }
 
 .logo-footer{
-display: flex;
-width: 20%;
-padding: 1em;
 align-content: flex-start;
+display: flex;
 flex-wrap: wrap;
-margin-right: 7em;
 justify-content: flex-end;
+margin-right: 7em;
+padding: 1em;
+width: 20%;
 
 }
 
@@ -215,17 +215,17 @@ justify-content: flex-end;
 
 
 .logo-footer h2{
+    align-items: center;
     color: var(--colorPrimario);
     margin-left: .1em;
-    align-items: center;
     
 }    
 .logo-footer span{
     color: var(--colorSecunrario)
 }
 .logo-footer img{
-    width: 10%;
     justify-content: center;
+    width: 10%;
 }
 
 
@@ -233,22 +233,22 @@ justify-content: flex-end;
    
     display: flex;
     flex-direction: column;
-    padding: 1em;
     margin-right: 5em;
+    padding: 1em;
 }
 .info-footer h2{
     font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 2em;
     font-weight: 100;
+    margin-bottom: 2em;
+    margin-top: 0;
 }
 
 .formulario{
     display: flex;
     flex-direction: column;
-    width: 40%;
     justify-content: center;
     padding: 1em;
+    width: 40%;
     
 }
 
@@ -258,33 +258,33 @@ justify-content: flex-end;
     width: 80%;
 }
 .formulario h2{
-    margin-top: 0;
     font-size: 1rem;
     font-weight: bold;
+    margin-top: 0;
 }
 form > input{
-    margin-bottom: 1em;
     border: none;
     border-bottom: 1px solid rgb(151, 151, 151);
+    margin-bottom: 1em;
     outline: none;
     padding: .5em;
 }
 
 form > button{
-    width: 10em;
-    margin-top: 1em;
-    height: 3.5em;
     background-color: var(--colorPrimario);
-    color: #fff;
     border: none;
+    color: #fff;
+    height: 3.5em;
+    margin-top: 1em;
+    width: 10em;
 }
 
 .formulario textarea{
-    resize: none;
     border: none;
     border-bottom: 1px solid rgb(151, 151, 151);
-    padding: 1em;
     outline: none;
+    padding: 1em;
+    resize: none;
 }
 
 .login{
@@ -295,32 +295,32 @@ main{
     align-items: center;
 }
 .conteiner-login{
-width:100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
 align-content: center;
 align-items: center;
 background-color: #E5E5E5;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:100%;
 
 }
 
 .conteiner-login form{
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
+    margin-bottom: 10%;
+    margin-top: 10%;
     min-width: 20%;
     padding: 2em;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 10px;
 }
 
 .conteiner-login input{
-    width: 100%;
     border: none;
     border-bottom: 1px solid #464646;
+    width: 100%;
 }
 
 .conteiner-login button{
@@ -335,9 +335,9 @@ background-color: #E5E5E5;
 /* Agregar peoductos */
 
 .main-producto{
-    width: 100%;
-    display: flex;
     background: #E5E5E5;
+    display: flex;
+    width: 100%;
 }
 
 
@@ -349,12 +349,37 @@ background-color: #E5E5E5;
 }
 
 .productos-titulo{
+    align-items: center;
     display: flex;
-    width: 100%;
   
     justify-content: space-around;
-    align-items: center;
+    width: 100%;
 }
+
+
+.admin{
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center 
+}
+
+.admin-top{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+    width: 100%;
+}
+
+
+.admin-top a{
+    background-color: #2A7AE4;
+    color: #fff;
+    padding: 1em;
+}
+
+
 
 
 @media only screen and (max-width: 700px){
@@ -367,10 +392,10 @@ background-color: #E5E5E5;
         text-align: start;
     }
     header{
-        width: 100%;
         display: flex;
-        padding: 1em 0em 1em;
         justify-content: center;
+        padding: 1em 0em 1em;
+        width: 100%;
     }
     .texto-hero h2{
         font-size: 2rem;
@@ -424,31 +449,31 @@ background-color: #E5E5E5;
     }
 
     footer h3{
-        margin-top: 0;
-        margin-bottom: 1em
+        margin-bottom: 1em;
+        margin-top: 0
     }
     .contenidos-footer{
+        align-content: center;
         display: flex;
         flex-direction: column;
-        align-content: center;
        
     }
     .logo-footer{
-        width: 100%;
         justify-content: center;
         margin: 0;
         padding: 0;
+        width: 100%;
     }
     .info-footer{
-        justify-content: flex-start;
-        text-align: center;
-        align-items: center;
         align-content: center;
+        align-items: center;
+        justify-content: flex-start;
         margin: 0;
+        text-align: center;
     }
     .formulario{
-        width: 100%;
         align-items: center;
         padding: 0;
+        width: 100%;
     }
 }

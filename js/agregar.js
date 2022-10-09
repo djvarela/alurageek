@@ -15,10 +15,11 @@ formCarga.addEventListener("submit", (evento)=>{
 
   console.log("PRECIO " + precio + " nombre " + nombre, "categoria " + categoria, "el id es:" + id)
 
-  servicios.crearProducto(nombre,precio,categoria, id).then(repuesta =>{console.log(repuesta)}).catch(error => console.log(error))
+  servicios.crearProducto(nombre,precio,categoria, id).then(repuesta =>{
+    window.location.href = "../index.html"
+  })
+  .catch(error => console.log(error))
 
 })
-
-
 
 

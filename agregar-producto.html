@@ -27,13 +27,23 @@
 
 <main class="main-agregar-producto">
     <section class="agregar-productor-conteiner">
-        <form action="" data-form>
+        <form action="./file.php" data-form autocomplete="off">
 
             <h2>Agregar nuevo producto</h2>
             <div class="menu-de-carga">
-                
-                <input type="text" name="" id="imagen" placeholder="URL de img">
+                <div class="subir-archivo-contenedor">
+                    <div class="subir-drop">
+                        <img src="./img/picture.svg" alt="">
+                        <label for="archivo">Arrastre para agregar una imagen al producto</label>
+                       <input type="file" id="archivo" class="input-archivo" name="fichero_usuario" placeholder="Suba archivo">
+                    </div>
+                    <div class="subir-input">
+                         <label for="archivo" id="label-archivo">Subir Archivo</label>
+                        <input type="file" id="archivo" class="input-archivo" name="fichero_usuario" placeholder="Suba archivo">
+                    </div>
+                </div>
                 <select id="categoria">
+                    <option value="productos"> - - </option>
                     <option value="productos">Productos</option>
                     <option value="consolas">Consolas</option>
                     <option value="diversos">Diversos</option>
