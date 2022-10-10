@@ -13,7 +13,7 @@ const validador = ()=>{
   descripcion.addEventListener("blur",(e)=>{
      let valor= e.target.value
  
-    if(valor.length >= 5){
+    if((valor.length >= 5)){ // validar
       console.log("es mayor a 6")
       botonEnviar.disabled=false
     }

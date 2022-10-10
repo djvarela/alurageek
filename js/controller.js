@@ -1,5 +1,5 @@
 
-const listaProductos = ()=> fetch("https://djvarela.github.io/alurageek/db.json").then((respuesta) => respuesta.json())
+const listaProductos = ()=> fetch("http://localhost:3000/producto").then((respuesta) => respuesta.json())
 
 
 const crearProducto = (nombre, precio, categoria, id) =>{

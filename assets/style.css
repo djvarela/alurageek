@@ -379,6 +379,15 @@ width:100%;
     padding: 1em;
 }
 
+.visible{
+    display: none;
+    opacity:0;
+}
+
+.card{
+    display: flex;
+
+}
 
 
 

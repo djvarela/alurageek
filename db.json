@@ -1,16 +1,10 @@
 {
   "producto": [
     {
-      "nombre": "hola",
-      "precio": "200",
+      "nombre": "hol",
+      "precio": "233",
       "categoria": "productos",
-      "id": "hola200"
-    },
-    {
-      "nombre": "",
-      "precio": "",
-      "categoria": "productos",
-      "id": "JnaMxxb"
+      "id": "hol233"
     }
   ],
   "consolas": [
